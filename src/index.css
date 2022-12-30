@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Flame";
+  src: url("./fonts/flame/FlameRegular.otf");
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -10px !important;
+  z-index: 10px !important
+}
+
+.swiper-pagination {
+  position: unset !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: grey !important;
+}
